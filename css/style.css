@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+main{
+    max-width: 1200px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+
+}
+img{
+    display: block;
+    width: 100%;
+}
+header{
+}
+.suv-header{
+    margin: 0px 100px;
+    position: relative;
+}
+.suv-header .top{
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 35px;
+}
+.nav-main{
+    background-color: #ffcc9f;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 5px rgb(231, 224, 224),-2px -2px 5px rgb(148, 142, 142);
+}
+.nav-main .lpgo{
+    width: 25%;
+
+}
+.nav-main h1{
+    padding: 10px 0px;
+}
+.nav-main .nav{
+    width: 75%;
+    
+    
+    
+}
+.nav-main .nav ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    list-style-type: none;
+    padding: 20px 0px;
+
+}
+.nav-main .nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+.stay-focused{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    
+}
+.suv-stay-focused{
+    width: 50%;
+    padding: 200px 0px 0px 0px;
+}
+.suv-stay-focused h2{
+    font-size: 50px;
+    border-left: 5px red solid;
+    padding: 0px 0px 0px 10px;
+}
+.suv-stay-focused span{
+    color: #FFAD5A;
+}
+.suv-stay-focused p{
+    margin: 0px 150px 0px 0px;
+    padding: 50px 0px;
+    text-align: justify;
+}
+.suv-stay-focused a{
+    background-color: #FF5959;
+    color: aliceblue;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+.suv-stay-focused h6{
+    padding: 75px 0px 0px 0px;
+    font-size: 15px;
+}
+.fixed{}
+.fixed{
+    color: red;
+    width: 100%;
+    font-size: 50px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 20;
+}
+.pasonal{
+    width: 50%;
+}
+.pasonal img{
+    width: 100%;
+    
+}
+.heading h2{
+    font-size: 35px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.heading span{
+    color:  #FFAD5A;
+}
+.mission{
+    width: 100%;
+    display: flex;
+    padding: 20px 0px;
+}
+.box{
+    width: 33%;
+    background-color: #EDF5F6;
+    padding: 20px 0px ;
+    margin: 10px 10px 10px 0px;
+    border-radius: 10px;
+}
+.box img{
+    width: 50%;
+}
+.box h3{
+    padding: 10px;
+}
+.box p{
+    text-align: justify;
+    padding: 10px;
+}
+.box1{
+    width: 33%;
+    background-color: #FFEEEE;
+    padding: 20px 0px ;
+    margin: 10px 10px 10px 0px;
+    border-radius: 10px;
+}
+.box1 img{
+    width: 50%;
+}
+.box1 h3{
+    padding: 10px;
+}
+.box1 p{
+    text-align: justify;
+    padding: 10px;
+}
+.box2{
+    width: 33%;
+    background-color: #FFF4D6;
+    padding: 20px 0px ;
+    margin: 10px 10px 10px 0px;
+    border-radius: 10px;
+}
+.box2 img{
+    width: 50%;
+}
+.box2 h3{
+    padding: 10px;
+}
+.box2 p{
+    text-align: justify;
+    padding: 10px;
+}
+.develop{
+    width: 100%;
+    display: flex;
+    margin: 20px 0px;
+
+}
+.suv-develop{
+    position: relative;
+    width: 40%;
+}
+.suv-develop .img1{
+    position: absolute;
+    width: 60%;
+    top: 30px;
+    left: -80px;
+    z-index: 1;
+    
+}
+
+.suv-develop .img2{
+    position: absolute;
+    z-index: 2;
+}
+.suv-develop .img2 img{
+    width: 100%;
+}
+.develop-lift{
+    width: 60%;
+    margin: 0px 0px 50px 50px;
+    padding: 80px 0px;
+}
+.develop-lift h2{
+    font-size: 60px;
+}
+.develop-lift p{
+    padding: 10px 0px 50px 0px;
+    text-align: justify;
+}
+.develop-lift a{
+    background-color: #FF5959;
+    color: aliceblue;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.know{
+    width: 100%;
+    display: flex;
+    margin: 20px 0px;
+}
+
+.Know-right{
+    width: 60%;
+    margin: 0px 50px 50px px;
+    padding: 80px 0px;
+}
+.Know-right h2{
+    font-size: 60px;
+}
+.Know-right p{
+    text-align: justify;
+    margin: 0px 50px 0px 0px;
+    padding: 0px 0px 50px 0px;
+}
+.Know-right a{
+    background-color: #FF5959;
+    color: aliceblue;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.suv-know{
+    width: 40%;
+    position: relative;
+}
+.suv-know .img3{
+    width: 100%;
+    position: absolute;
+}
+
+.suv-know .img4{
+    position: absolute;
+    width: 50%;
+    bottom: -50px;
+    right: -70px;
+    
+}
+.svu-heading{
+
+}
+.svu-heading h2{
+    font-size: 35px;
+    text-align: center;
+    padding: 100px 0px;
+}
+.svu-heading span{
+    color:  #FFAD5A;
+}
+.build{
+    width: 100%;
+    display: flex;
+    margin: 20px 0px;
+}
+.suv-build{
+    position: relative;
+    width: 50%;
+}
+.suv-build .img5{
+    width: 100%;
+    position: absolute;
+}
+.suv-build .img6{
+    position: absolute;
+    width: 30%;
+
+}
+.suv-build .img7{
+    position: absolute;
+    width: 20%;
+    bottom: 40px;
+    left: 20px;
+}
+.suv-build .img8{
+    position: absolute;
+    width: 15%;
+    right: 20px;
+    bottom: 240px;
+}
+.build-lift{
+    width: 50%;
+    margin: 0px 0px 0px 100px;
+    padding: 150px 0px 280px 0px;
+}
+.build-lift h2{
+    font-size: 60px;
+}
+.build-lift span{
+    color:  #FFAD5A;
+}
+.build-lift p{
+    padding: 50px 0px 50px 0px;
+    text-align: justify;
+    
+}
+.build-lift a{
+    background-color: #FF5959;
+    color: aliceblue;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    padding: 50px 0px;
+    margin: 10px 0px;
+}
